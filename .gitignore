@@ -1,0 +1,12 @@
+# Ignorar tudo na raiz do projeto
+/*
+
+# Abrir exceção APENAS para o necessário
+!lib/
+!prints/
+!pubspec.yaml
+!.gitignore
+!README.md
+
+# Garantir que subpastas de build dentro da lib (se houver) sejam ignoradas
+lib/generated/
